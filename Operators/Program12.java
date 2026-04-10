@@ -4,7 +4,7 @@ class Main{
         Scanner sc=new Scanner(System.in);
         int fileSize=sc.nextInt();
         int compressionCycle=sc.nextInt();
-        int size=fileSize>>compressionCycle;
+        int size=fileSize>>compressionCycle; 
         System.out.println("Compressed Size="+size);
     }
 }
