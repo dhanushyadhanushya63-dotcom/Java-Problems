@@ -4,7 +4,7 @@ class Main {
        Scanner sc=new Scanner(System.in);
        int accountBalance=sc.nextInt();
        int withdrawal=sc.nextInt();
-       int dailyLimit=sc.nextInt();
+       int dailyLimit=sc.nextInt(); 
        if(withdrawal<=accountBalance && withdrawal<=accountBalance){
            System.out.println("Approved");
        }
