@@ -5,7 +5,7 @@ class Main {
         int cartValue=sc.nextInt();
         int premiumMember=sc.nextInt();
         if(cartValue>999 || premiumMember==1){
-            System.out.println("Free shipping");
+            System.out.println("Free shipping"); 
         }else{
             System.out.println("Shipping charges Applied");
         }
