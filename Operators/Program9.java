@@ -6,7 +6,7 @@ class Main{
         int password=sc.nextInt();
         int accountLocked=sc.nextInt();
         if(userName==1 && password==1 && !(accountLocked==1)){
-            System.out.println("Login Success");
+            System.out.println("Login Success"); 
         }else{
             System.out.println("Login Failed");
         }
