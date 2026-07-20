@@ -5,7 +5,7 @@ public class Main{
         long num=sc.nextLong();
         long sum=0;
         while(num!=0){
-            long digit=num%10;
+            long digit=num%10; 
             sum=sum+digit;
             num=num/10;
         }
