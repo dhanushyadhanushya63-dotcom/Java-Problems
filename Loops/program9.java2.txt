@@ -1,0 +1,31 @@
+import java.util.Scanner;
+public class Main{
+    public static void main(String[]args){
+        Scanner sc=new Scanner(System.in);
+        long num=sc.nextLong();
+        long org=num;
+        if(org%10==0){
+            System.out.print("No");
+            return;
+        }
+        long rev=0;
+        while(num!=0){
+            long digit=num%10;
+            rev=rev*10+digit;
+            num=num/10;
+        }
+        long square1=org*org;
+        long square2=rev*rev;
+        long tempSquare=square1;
+        long revSquare=0;
+        while(tempSquare!=0){
+            long digit=tempSquare%10;
+            revSquare=revSquare*10+digit;
+            tempSquare=tempSquare/10;
+        }
+        if(revSquare==square2){
+            System.out.print("Yes");
+        }else{
+            System.out.print("No");
+        }
+    }
