@@ -9,7 +9,7 @@ class Solution {
             int digit = x % 10;
             reverse = reverse * 10 + digit;
             x = x / 10;
-        }
+        } 
         return original == reverse;
     }
 }
