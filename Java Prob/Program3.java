@@ -5,7 +5,7 @@ class Solution {
         }
         int buy=-prices[0];
         int sell=0;
-        int cool=0;
+        int cool=0; 
         for(int i=0;i<prices.length;i++){
             int prevBuy=buy;
             int prevSell=sell;
