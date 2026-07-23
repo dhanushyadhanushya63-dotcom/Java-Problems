@@ -6,7 +6,7 @@ public class Main{
         int count=0;
         while(num!=0){
             long digit=num%10;
-            count++;
+            count++; 
             num=num/10;
         }
         System.out.println(count);
