@@ -6,5 +6,5 @@ class Main{
        int permissionB=sc.nextInt();
        int result=permissionA | permissionB;
        System.out.println("Marged permission code="+result);
-    }
+    } 
 }
