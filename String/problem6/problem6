@@ -1,0 +1,25 @@
+import java.util.Scanner;
+public class Main{
+    public static void main(String[] args){
+        Scanner sc=new Scanner(System.in);
+        String name=sc.nextLine();
+        String[] arr=name.split(" ");
+        String result="";
+        for(int i=0;i<arr.length;i++){
+            String total="";
+            if(arr[i].length()%2!=0){
+                for(int j=arr[i].length()-1;j>=0;j--){
+                    total+=arr[i].charAt(j);
+                }
+                 result+=total;
+            }
+            else{
+                result+=arr[i];
+            }
+            if(i<arr.length-1){
+                result+=" ";
+            }
+        }
+        System.out.print(result);
+    }
+}
