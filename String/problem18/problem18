@@ -1,0 +1,14 @@
+import java.util.Scanner;
+public class Main{
+    public static void main(String[]args){
+        Scanner sc=new Scanner(System.in);
+        long n=sc.nextLong();
+        long power=1;
+        while(power<=n/2){
+            power=power*2;
+        }
+        long unused=n-power;
+        System.out.println("Power: "+power );
+        System.out.println("Unused: "+unused);
+    }
+}
