@@ -11,5 +11,5 @@ public class ArmstrongNumber {
            num=num/10;
        }
        System.out.println("Sum of digits:"+sum);
-    }
+    } 
 }
