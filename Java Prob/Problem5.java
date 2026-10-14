@@ -9,5 +9,5 @@ public class ArmstrongNumber {
        c=sc.nextInt();
        sum=a+b+c;
        System.out.println("Sum;"+sum);
-    }
+    } 
 }
