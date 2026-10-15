@@ -8,7 +8,7 @@ public class Main{
             rev=rev+str.charAt(i);
         }
         if(str.equals(rev)){
-            System.out.print("Yes");
+            System.out.print("Yes"); 
         }else{
             System.out.print("No");
         }
