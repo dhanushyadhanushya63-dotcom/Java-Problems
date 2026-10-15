@@ -3,7 +3,7 @@ public class Main{
     public static void main(String[]args){
         Scanner sc=new Scanner(System.in);
         long num=sc.nextLong();
-        long sum=0;
+        long sum=0; 
         while(num!=0){
             long digit=num%10; 
             sum=sum+digit;
