@@ -1,0 +1,23 @@
+
+import java.util.Scanner;
+class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int hours = sc.nextInt();
+        int fee = 0;
+        if (hours == 0) {
+            fee = 0;
+        } else if (hours <= 2) {
+            fee = hours * 30;
+        } else if (hours <= 5) {
+            fee = (2 * 30) + (hours - 2) * 20;
+        } else {
+            fee = (2 * 30) + (3 * 20) + (hours - 5) * 10;
+        }
+        if (hours > 8) {
+            fee += 50;
+        }
+        System.out.println("Fee: ₹" + fee);
+        sc.close();
+    }
+}
