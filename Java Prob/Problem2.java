@@ -10,5 +10,5 @@ public class ArmstrongNumber {
         System.out.println("Odd Number");
     }
   }
-    
+     
 }
